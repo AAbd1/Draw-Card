@@ -54,14 +54,46 @@
 		28D82B3F213D8AF0004DBA96 /* Draw Card */ = {
 			isa = PBXGroup;
 			children = (
+				28D82B54213D9A51004DBA96 /* Model */,
+				28D82B53213D9A44004DBA96 /* View */,
+				28D82B52213D9A3D004DBA96 /* Controller */,
+				28D82B55213D9A6E004DBA96 /* Resources */,
+			);
+			path = "Draw Card";
+			sourceTree = "<group>";
+		};
+		28D82B52213D9A3D004DBA96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28D82B53213D9A44004DBA96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28D82B44213D8AF0004DBA96 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28D82B54213D9A51004DBA96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28D82B55213D9A6E004DBA96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				28D82B40213D8AF0004DBA96 /* AppDelegate.swift */,
 				28D82B42213D8AF0004DBA96 /* ViewController.swift */,
-				28D82B44213D8AF0004DBA96 /* Main.storyboard */,
 				28D82B47213D8AF2004DBA96 /* Assets.xcassets */,
 				28D82B49213D8AF2004DBA96 /* LaunchScreen.storyboard */,
 				28D82B4C213D8AF2004DBA96 /* Info.plist */,
 			);
-			path = "Draw Card";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
